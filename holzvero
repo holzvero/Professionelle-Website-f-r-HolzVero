@@ -1,0 +1,211 @@
+
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HolzVero | Carports aus Holz</title>
+  <meta name="description" content="Individuelle Carports aus Holz – natürlich, stabil und zeitlos. Planung, Fertigung und Montage aus einer Hand.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#start" aria-label="HolzVero Startseite">
+        <img src="assets/holzvero-logo.png" alt="HolzVero Logo">
+      </a>
+      <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#vorteile">Vorteile</a>
+        <a href="#ablauf">Ablauf</a>
+        <a href="#kontakt" class="nav-cta">Angebot anfragen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Holzbau mit Charakter</span>
+          <h1>Carports aus Holz.<br>Natürlich. Stabil. Zeitlos.</h1>
+          <p>Individuell geplante Holzcarports für Ihr Zuhause – hochwertig gefertigt, langlebig konstruiert und fachgerecht montiert.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#kontakt">Kostenloses Angebot</a>
+            <a class="btn secondary" href="#leistungen">Unsere Leistungen</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Maßanfertigung</span>
+            <span>✓ Solide Konstruktion</span>
+            <span>✓ Persönliche Beratung</span>
+          </div>
+        </div>
+        <div class="hero-card" role="img" aria-label="Illustration eines hochwertigen Holzcarports">
+          <div class="sun"></div>
+          <div class="mountain m1"></div>
+          <div class="mountain m2"></div>
+          <div class="trees"></div>
+          <div class="carport">
+            <div class="roof"></div>
+            <div class="beam beam-a"></div>
+            <div class="beam beam-b"></div>
+            <div class="post p1"></div>
+            <div class="post p2"></div>
+            <div class="post p3"></div>
+          </div>
+          <div class="ground"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="leistungen">
+      <div class="container">
+        <span class="eyebrow">Unsere Leistungen</span>
+        <h2>Von der Idee bis zur fertigen Konstruktion</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">01</div>
+            <h3>Carports nach Maß</h3>
+            <p>Einzel- und Doppelcarports, abgestimmt auf Grundstück, Fahrzeug und Architektur Ihres Hauses.</p>
+          </article>
+          <article class="card">
+            <div class="icon">02</div>
+            <h3>Holzbau & Überdachungen</h3>
+            <p>Robuste Konstruktionen, Pergolen und Terrassenüberdachungen aus sorgfältig ausgewähltem Holz.</p>
+          </article>
+          <article class="card">
+            <div class="icon">03</div>
+            <h3>Montage vor Ort</h3>
+            <p>Saubere und zuverlässige Umsetzung durch ein erfahrenes Team – termingerecht und transparent.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="vorteile">
+      <div class="container split">
+        <div class="image-panel">
+          <img src="assets/holzvero-logo.png" alt="HolzVero – nachhaltige Holzlösungen">
+        </div>
+        <div>
+          <span class="eyebrow">Warum HolzVero?</span>
+          <h2>Qualität, die man sieht und spürt</h2>
+          <div class="feature">
+            <strong>Natürliches Material</strong>
+            <p>Holz schafft eine warme, hochwertige Optik und fügt sich harmonisch in die Umgebung ein.</p>
+          </div>
+          <div class="feature">
+            <strong>Stabile Ausführung</strong>
+            <p>Durchdachte Details, fachgerechte Verbindungen und eine Konstruktion für viele Jahre.</p>
+          </div>
+          <div class="feature">
+            <strong>Individuelle Beratung</strong>
+            <p>Wir planen nicht von der Stange, sondern passend zu Ihren Anforderungen und Ihrem Budget.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ablauf">
+      <div class="container">
+        <span class="eyebrow">So funktioniert es</span>
+        <h2>In vier Schritten zum neuen Carport</h2>
+        <div class="steps">
+          <div class="step"><span>1</span><h3>Anfrage</h3><p>Sie senden Maße, Fotos und Ihre Wünsche.</p></div>
+          <div class="step"><span>2</span><h3>Beratung</h3><p>Wir klären Material, Form und Ausstattung.</p></div>
+          <div class="step"><span>3</span><h3>Angebot</h3><p>Sie erhalten ein transparentes Angebot.</p></div>
+          <div class="step"><span>4</span><h3>Montage</h3><p>Wir fertigen und montieren zuverlässig.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="kontakt">
+      <div class="container contact-grid">
+        <div>
+          <span class="eyebrow light">Projekt starten</span>
+          <h2>Planen Sie Ihren Carport mit HolzVero</h2>
+          <p>Beschreiben Sie kurz Ihr Vorhaben. Wir melden uns mit einer unverbindlichen Einschätzung.</p>
+          <div class="contact-details">
+            <a href="tel:+490000000000">+49 000 0000000</a>
+            <a href="mailto:kontakt@holzvero.de">kontakt@holzvero.de</a>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); document.getElementById('formMessage').textContent='Vielen Dank! Ihre Anfrage wurde vorbereitet. Bitte verbinden Sie das Formular später mit einem E-Mail-Dienst.';">
+          <label>Name<input type="text" name="name" required></label>
+          <label>E-Mail<input type="email" name="email" required></label>
+          <label>Telefon<input type="tel" name="phone"></label>
+          <label>Nachricht<textarea name="message" rows="5" placeholder="Was möchten Sie bauen?" required></textarea></label>
+          <button class="btn primary full" type="submit">Anfrage senden</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© <span id="year"></span> HolzVero</span>
+      <span>Carports aus Holz – natürlich, stabil, zeitlos.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+HOLZVERO – STRONA INTERNETOWA
+
+1. Otwórz plik index.html w przeglądarce.
+2. Zmień numer telefonu i adres e-mail w index.html.
+3. Aby opublikować za darmo:
+   - GitHub Pages
+   - Netlify
+   - Cloudflare Pages
+
+Formularz jest demonstracyjny. Do realnego wysyłania wiadomości można podłączyć Formspree, Netlify Forms albo własny backend.
+
+# HolzVero – GitHub Pages
+
+Gotowa, statyczna strona internetowa firmy HolzVero.
+
+## Publikacja za darmo
+
+1. Załóż konto na GitHub.
+2. Utwórz nowe publiczne repozytorium, np. `holzvero`.
+3. Wgraj wszystkie pliki z tego folderu bezpośrednio do głównego katalogu repozytorium.
+4. Otwórz: **Settings → Pages**.
+5. W części **Build and deployment** wybierz:
+   - Source: **Deploy from a branch**
+   - Branch: **main**
+   - Folder: **/(root)**
+6. Kliknij **Save**.
+
+Po kilku minutach strona będzie dostępna pod adresem:
+
+`https://NAZWA-UZYTKOWNIKA.github.io/holzvero/`
+
+## Ważne przed publikacją
+
+W pliku `index.html` zamień:
+- `+49 000 0000000` na właściwy numer telefonu,
+- `kontakt@holzvero.de` na właściwy adres e-mail.
+
+Formularz jest wersją demonstracyjną. Do odbierania wiadomości można bezpłatnie podłączyć np. Formspree.
+
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav-links');
+
+toggle?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', String(open));
+});
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => nav.classList.remove('open'));
+});
+
+document.getElementById('year').textContent = new Date().getFullYear();
